@@ -1,0 +1,41 @@
+{
+  "name": "bridge-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "crypto-promise": "^2.1.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "helmet": "^3.12.1",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-google-oauth20": "^1.0.0",
+    "promise-mysql": "^3.3.1"
+  },
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sopt-Bridge/Bridge-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sopt-Bridge/Bridge-Server/issues"
+  },
+  "homepage": "https://github.com/Sopt-Bridge/Bridge-Server#readme"
+}
